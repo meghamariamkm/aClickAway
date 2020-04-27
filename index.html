@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>aClickAway</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+
+<body style="overflow-x: hidden;">
+    
+    <div class="container">
+       
+        <div id="logo">
+            <img src="logo_img.png" class="responsive-img col-md-0.1" style="width: 200px; height: 200px; display: ruby-base;">
+            <div id="log">
+               <button class="login" onclick="document.getElementById('tat').style.display='block'" style="width:auto;">LOGIN</button>
+
+                <div id="tat" class="modal">
+                  
+                  <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('tat').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="login.png" alt="Avatar" class="login_img">
+                    </div>
+                
+                    <div class="container1">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" class="col-xs-0.3 responsive-img" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <button type="submit" class="logbt">Login</button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                
+                    <div class="container22" style="background-color:#f1f1f1">
+                      <button type="button" onclick="document.getElementById('tat').style.display='none'" class="cancelbtn">Cancel</button>
+                      <button type="button" class="sign"><a href="sign.html">SIGN IN</a></button>
+                         <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+            
+            </div>         
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('tat');
+            
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>
+            
+    
+         <div class="row" >
+            <nav class="navbar navbar-default" role="navigation">   
+                <div
+                >
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynav" >
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <div class="title2">
+                       <marquee>
+                        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+                        <span>Knowledge</span>aClickAway
+                    </marquee>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="mynav">
+                    <!-- actual navigation-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#contact2">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+
+        <div id="primary" class="col-md-5" style="background-color: black;">
+            <img src="primary.png" class="responsive-img">
+            <a href="class1-5.html" class="col-md-5"><p>CLASSES 1-5</p></a>
+            
+        </div>
+
+        <div id="secondary" class="col-md-5">
+            <img src="t.png" class="reponsive-img">
+            <a href="class6-12.html" class="col-md-5"><p>CLASSES 6-12</p></a>
+           
+        </div>
+ 
+        <div id="contact">
+        <div id="contact1" class="col-md-12">
+            <a href="mailto:meghamariamkm@mail.com">
+            <img src="email.png" class=" col-md-0.5 responsive-img" id="pic">
+            <div id="desp" class="col-md-10">
+                <p>meghamariamkm@gmail.com</p>
+            </div>
+        </a>
+        </div>    
+
+        <div id="contact2" class="col-md-12">
+            <img src="insta.jpg" class="col-md-0.5 responsive-img" id="pic">
+            <div id="desp" class="col-md-10">
+                <p>meghamariamkm</p>
+            </div>
+
+        </div>
+        
+    </div>
+       <div id="bottom" class="col-md-5 col-s-9">
+            <a href="terms.html" style="margin-top: 45px;"><p>TERMS AND CONDITIONS</p></a>
+        </div>
+
+        </div>
+        
+   
+   </body>
+   <style>
+       @media all and (max-width:780px)
+       {
+           
+           #primary{
+        text-align: center;
+        border-radius: 50%;
+        width: 330px;
+        height: 300px;
+       background-color: black;
+       margin-left: -45px;
+       margin-top: 65px;
+}
+
+ #secondary{
+        text-align: center;
+        border-radius: 50%;
+       width: 330px;
+        height: 300px;
+       background-color: black;
+       margin-left: -47px;
+       margin-top: 65px;
+       overflow-x: hidden;
+     
+ }
+ #primary img {
+                        margin-top: 30px;
+                        margin-left: 20px;
+                        height: 200px;
+                        width: 250px;
+                        display: center;
+                        text-align: center;
+                        padding-left: 30px;
+                        padding-right: 0px
+                        
+ }
+
+ #secondary img {
+
+        margin-left: 63px;
+        height: 220px;
+        width: 254px;
+        display: center;
+        text-align: center;
+        padding-right: 80px;
+        padding-top: 24px;
+        
+ }
+ .navbar-header,#mynav{
+
+background-color: #A9A9A9;
+margin-left: -60px;
+
+       }
+ .container #primary a p{
+
+color: red;
+margin-left: 60px;
+padding-top: 0px;
+padding-right: 50px;
+margin-top: 10px;
+font-size: 20px;
+
+}
+
+
+
+.container #secondary a p{
+
+color: red;
+margin-top: 20px;
+margin-left: 60px;
+padding-top: 0px;
+padding-right: 50px;
+font-size: 20px;
+}
+.container #contact1 img{
+
+height: 60px;
+width: 55px;
+margin-left: -85px;
+margin-right: -200px;
+margin-top: 60px;
+}
+
+.container #contact1 #desp{
+
+       margin-left: -30px;
+       margin-bottom: 36px;
+       margin-top: -50px;
+       font-size: 23px;
+      
+}
+
+.container #contact2 img{
+
+height: 60px;
+width: 60px;
+margin-left: -90px;
+margin-top: 0px;
+padding-top: 0px;
+
+}
+.container #contact2 #desp{
+
+margin-left: -30px;
+margin-bottom: 36px;
+margin-top: -50px;
+font-size: 23px;
+
+}
+.container #bottom a p{
+
+padding-left: 70px;
+padding-top: 30px;
+padding-bottom: 0px;
+color: white;
+margin-top: 20px;
+font-size: 19px;
+}
+
+#contact1 p{
+padding-left: 22px;
+}
+
+.container #bottom {
+
+    background-color: black;
+    margin-left: -80px;
+    width: 400px;
+    height: 100px;
+    margin-bottom: -100px;
+
+}
+#contact1 p{
+                        padding-left: 2px;
+ }
+
+ body{
+
+            overflow-x: hidden;
+            width: 100%;
+ }
+ .container #logo #log .login {
+       border-radius: 20px ;
+       height: 40px;
+       width: 80px;
+       
+      font-size: 16px;
+       margin-left: 220px;
+       padding-top: -50px;
+       padding-bottom: 20px;
+       background-color: green;
+       color: honeydew;
+      
+}
+
+#logo img{
+
+            margin-left: -80px;
+}
+
+.modal {
+       display: none; /* Hidden by default */
+       position: fixed; /* Stay in place */
+       z-index: 1; /* Sit on top */
+       left: 0;
+       top: 0;
+       width: 90%; /* Full width */
+       height: 90%; /* Full height */
+       overflow: auto; /* Enable scroll if needed */
+       background-color: rgb(0,0,0); /* Fallback color */
+       background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+       padding-top: 60px;
+     }
+}
+
+   </style>
+   
+</html>
