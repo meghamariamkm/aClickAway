@@ -1,0 +1,717 @@
+/*DESKTOP STYLES*/
+
+/*home_page styles*/
+
+/*Styles for navigation*/
+.navbar-header,#mynav{
+
+            background-color: #A9A9A9;
+}
+
+/*Styles for primary*/
+
+ .container #primary a{
+
+                color: red;
+                margin-left: 160px;
+                padding-top: 40px;
+                padding-right: 50px;;
+
+ }
+
+ #primary{
+                text-align: center;
+                border-radius: 50%;
+                width: 500px;
+                height: 450px;
+                background-color: black;
+                margin-left: 30px;
+                margin-top: 65px;
+}
+
+#primary img {
+                  margin-top: 50px;
+                  height: 300px;
+                  width: 400px;
+                  display: center;
+                  text-align: center;
+                  padding-left: 20px;
+                  padding-right: 0px;
+}
+
+/*Styles for secondary*/
+ .container #secondary a{
+         
+          color: red;
+          margin-left: 160px;
+          padding-top: 40px;
+          padding-right: 50px;
+ }
+
+
+ #secondary{
+  
+                text-align: center;
+                border-radius: 50%;
+                width: 500px;
+                height: 450px;
+                background-color: black;
+                margin-left: 100px;
+                margin-top: 65px;
+              
+ }
+
+
+ #secondary img {
+
+        margin-left: 50px;
+        height: 360px;
+        width: 450px;
+        display: center;
+        text-align: center;
+        padding-right: 100px;
+        padding-top: 80px;
+ }
+
+ /* Styles for container*/
+
+ .container{
+
+        margin-left: 80px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+ }
+
+ /*Styles for terms and conditions and bottom part of home_page*/
+
+ .container #bottom a p{
+
+                        padding-left: 565px;
+                        padding-top: 30px;
+                        padding-bottom: 0px;
+                        color: white;
+                        margin-top: 10px;
+ }
+
+ .container #bottom {
+
+  background-color: black;
+  margin-left: -80px;
+  width: 2000px;
+  height: 100px;
+
+
+}
+
+.container #bottom {
+
+  background-color: black;
+  margin-left: -80px;
+  width: 2000px;
+  height: 100px;
+
+
+}
+
+/*Styles for contact part*/
+
+ #contact1 p{
+                        padding-left: 22px;
+ }
+
+ 
+
+ .container #contact1 img{
+
+              height: 70px;
+              width: 65px;
+              margin-left: 278px;
+              margin-right: -200px;
+              margin-top: 60px;
+ }
+
+ .container #contact1 #desp{
+
+                     margin-left: 350px;
+                     margin-bottom: 36px;
+                     margin-top: -50px;
+                     font-size: 27px;
+                    
+ }
+
+ .container #contact2 img{
+
+       height: 70px;
+       width: 70px;
+      margin-left: 280px;
+       margin-top: 0px;
+       padding-top: 0px;
+      
+ }
+.container #contact2 #desp{
+
+              margin-left: 370px;
+              margin-bottom: 36px;
+              margin-top: -50px;
+              font-size: 27px;
+             
+}
+
+/*Login button*/
+.container #logo #log .login {
+  border-radius: 20px ;
+  height: 40px;
+  width: 80px;
+  
+ font-size: 16px;
+  margin-left: 1087px;
+  padding-top: -50px;
+  padding-bottom: 20px;
+  background-color: green;
+  color: honeydew;
+ 
+}
+
+/*sign in button*/
+.container #logo #log #signin{
+
+                margin-left: 900px;
+                background-color: blue;
+                color: honeydew;
+                border-radius: 20px;
+              
+                font-size: 21px;
+                height: 40px;
+                width: 100px;
+}
+
+.container #logo #log{
+
+  margin-top: -80px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: -20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: flex;
+  margin-right: 20px;
+
+}
+
+/* Set a style for all buttons */
+.logbt,.login{
+  background-color: #4CAF50;
+  margin-left: -30px;
+  padding-left: 45px;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn  {
+  width: auto;
+  padding: 10px 18px;
+  background-color: red;
+  color: white;
+  margin-left: -10px;
+}
+
+.sign{
+  width: auto;
+  padding: 10px 18px;
+ background-color: blue;
+  color: white;
+}
+
+.sign a{
+       color: white;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+.login_img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container22 {
+  padding: 16px;
+  margin-left: -20px;             
+  
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  padding-left: 40px;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 800px;
+  }
+}
+
+/*Styles in terms page*/
+
+#terms .point{
+
+                     padding-top: 10px;
+                     margin-left: 4px;
+                     margin-right: 30px;
+}
+
+
+
+#terms{
+
+              background-color: ivory;
+              margin-left: 160px;
+              margin-right: -80px;
+              margin-top: 20px;
+              margin-bottom: 40px;
+}
+
+#terms .line{
+
+       margin-left: 45px;
+       margin-top: -30px;
+       padding-top: 0px;
+       margin-bottom: 30px;;
+}
+
+#terms h1{
+
+       margin-left: 45px;
+       margin-bottom: 30px;
+      
+}
+
+#terms p{
+
+       margin-left: 45px;
+}
+
+/*home in terms page*/
+
+.home {
+
+              margin-left: 900px;
+              margin-top: 80px;
+     }
+
+/*CLASSES 1-5*/     
+#image{
+
+          width: 302px;
+          height: 200px;
+          margin-top: -8px;
+          margin-left: -95px;
+          padding-left: -30px;
+}
+     
+#container3{
+
+              background-color: black;
+              width: 900px;
+              margin-left: 225px;
+              margin-bottom: 40px;
+              padding-bottom: 30px;
+              margin-top: 50px;
+  }
+
+#box{
+  
+      margin-left: 36px;
+      margin-top: 20px;
+      background-color: white;
+      height: 200px;
+      width: 828px;
+     
+}   
+
+#box a{
+
+                margin-top: -2px;
+                font-size: 55px;
+                font-style: bold;
+                margin-left: 50px;
+                @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+                height: 203px;
+                font-family: 'Dancing Script', cursive;
+}
+
+#heading
+{
+
+              margin-top: 15px;
+              font-weight: bolder;
+}
+
+#heading{
+
+        padding-top: 50px;
+        margin-top: 30px;
+        margin-left: 20px;
+}
+
+.homepage{
+
+              margin-left: 1050px;
+              font-size: 24px;
+             color: black;
+              margin-bottom: 40px;
+}
+
+#logo1{
+          width: 170px;
+          height: 150px;
+          margin-left: 246px;
+          margin-top: 90px;
+
+}
+
+.navigation{
+
+              margin-bottom: 90px;
+              background-color: white;
+}
+
+#title{
+
+          font-size: 60px;
+          margin-top: 150px;
+          color: white;
+          @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+          font-family: 'Dancing Script', cursive;
+      
+}
+#title span{
+            font-size: 19px;
+           margin-left: 40px;
+          
+}
+
+/*CLASSES 6-12*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+.dropdown li{
+
+              margin-top: 15px;
+              text-decoration: none;
+              color: black;
+              margin-right: 10px;
+              margin-bottom: 15px;
+              
+}
+
+.logoo img{
+
+              height: 170px;
+              width: 170px;
+              margin-left: 1010px;
+}
+
+#title1{
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+
+}
+
+.name1{
+
+        font-size: 30px;
+       width: 140px;
+        color: white;
+        margin-top: 7px;
+        padding-bottom: -40px;
+        margin-bottom: -56px;       
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  font-family: 'Dancing Script', cursive;
+}
+
+.science,.english,.maths,.phy,.comp,.bio,.chem,.eco,.bus,.comp{
+
+          background-color: black;
+          margin-left: 49px;
+          width: 320px;
+}
+
+.img{
+
+        width: 300px;
+        height: 300px;
+        margin-left: -5px;
+}
+
+.science a,.english a,.maths a{
+
+         
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  text-decoration: none;
+
+}
+
+.science p,.english p,.maths p{
+
+                color: white;
+}
+
+
+.chem a,.phy a,.bio a{
+
+         
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  text-decoration: none;
+
+}
+
+.chem p,.phy p,.bio p{
+
+                color: white;
+}
+
+.phy{
+        margin-left: 129px;
+}
+
+.comp a,.eco a,.bus a{
+
+         
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+  text-decoration: none;
+
+}
+
+.bus p,.eco p,.comp p{
+
+                color: white;
+}
+
+.comp{
+
+          margin-left: 129px;
+}
+
+.carrier{
+
+            margin-bottom: 20px;
+            padding-bottom: 60px;
+}
+
+.title2{
+
+          font-size: 32px;
+         
+          font-weight: bold;
+          width: 140px;
+          width: 140px;
+          color: black;
+          margin-top: 7px;
+          padding-bottom: -40px;
+          margin-bottom: -56px;       
+       
+          @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+          font-family: 'Dancing Script', cursive;
+}
+
+.title2 span{
+
+                    font-size: 19px;
+                    margin-bottom: 60px;
+                    font-weight: lighter;
+                    
+                    width: 140px;
+                     color: white;
+                     margin-top: 7px;
+                     padding-bottom: -40px;
+                     margin-bottom: -56px;       
+               @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+               font-family: 'Dancing Script', cursive;
+}
+
+/* Registration page*/
+
+.carrier1{
+
+              background-color: black;
+}
+
+.carrier1 .content-carrier{
+
+                              background-color: white;
+                              font-size: 30px;
+                              margin-left: 100px;
+                              margin-top: 20px;
+                              margin-bottom: 20px;
+                              border-radius: 50%;
+                              height: 1000px;
+                              
+}
+
+.heading1{
+
+            font-size: 80px;
+            margin-left: 400px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+            font-family: 'Indie Flower', cursive;
+            font-weight: bolder;
+}
+
+.o1one{
+
+          display: flex;
+          margin-left: 180px;
+          margin-bottom: 10px;
+          @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+          font-family: 'Indie Flower', cursive;
+}
+
+.sform input{
+
+              width: 100%;
+              margin-left: 180px;
+              margin-bottom: 10px;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              
+}
+
+.regt{
+
+          font-size: 30px;
+          background-color: teal;
+          color: white;
+          margin-top: -600px;
+          margin-left: 320px;
+          border-radius: 20px;
+          padding-top: 8px;
+          padding-bottom: 7px;
+   
+  }
+
+  #home1{
+
+            font-size: 17px;
+            margin-top: 30px;
+            margin-bottom: 80px;
+  }
+  
